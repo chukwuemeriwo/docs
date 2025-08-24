@@ -20,7 +20,6 @@
               "quickstart",
               "why-orica",
               "FAQs"
-
             ]
           },
           {
@@ -67,10 +66,20 @@
           "href": "https://mintlify.com/community",
           "icon": "X"
         },
+         {
+          "anchor": "Discord",
+          "href": "https://discord.com/orica",
+          "icon": "discord"
+        },
         {
           "anchor": "Telegram",
           "href": "https://t.me/oricamoneybot",
           "icon": "telegram"
+        },
+        {
+          "anchor": "Brand Kit",
+          "href": "https://example.com/brand",
+          "icon": "brand"
         }
       ]
     }
