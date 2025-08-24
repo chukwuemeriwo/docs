@@ -3,7 +3,11 @@
   "theme": "mint",
   "name": "Orica Docs",
   "colors": {
-    "primary": "#f7b009"
+
+   "primary": "#f7b009",
+    "light": "#f7b009",
+    "dark": "#f7b009"
+  
   },
   "favicon": "/favicon.svg",
   "icons": {
