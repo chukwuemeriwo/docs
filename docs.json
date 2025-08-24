@@ -46,6 +46,13 @@
               "tutorials/funding-bets",
               "tutorials/leaderboards"
             ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/terms",
+              "legal/privacy"
+            ]
           }
         ]
       }
