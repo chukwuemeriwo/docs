@@ -55,10 +55,10 @@
         {
           "anchor": "Website",
           "href": "https://orica.money",
-          "icon": "app"
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
+          "anchor": "X (Twitter)",
           "href": "https://mintlify.com/community",
           "icon": "X"
         },
@@ -75,7 +75,7 @@
         {
           "anchor": "Brand Kit",
           "href": "https://example.com/brand",
-          "icon": "blog"
+          "icon": "list-video"
         }
       ]
     }
@@ -87,7 +87,7 @@
   "navbar": {
     "links": [
       {
-        "label": "Community",
+        "label": "X (Twitter)",
         "href": "https://discord.gg/oricamoney"
       }
     ],
