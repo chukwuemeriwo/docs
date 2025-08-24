@@ -11,6 +11,9 @@
   "icons": {
     "library": "lucide"
   },
+  "thumbnails": {
+    "background": "/images/OGImage.png"
+  },
   "navigation": {
     "tabs": [
       {
