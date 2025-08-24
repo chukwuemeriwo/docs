@@ -79,7 +79,7 @@
         {
           "anchor": "Community",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "icon": "X"
         },
         {
           "anchor": "Blog",
@@ -97,13 +97,13 @@
     "links": [
       {
         "label": "Community",
-        "href": "discord.gg/oricamoney"
+        "href": "https://discord.gg/oricamoney"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Orica app",
-      "href": "https://orica.money"
+      "href": "https://example.com"
     }
   },
   "contextual": {
