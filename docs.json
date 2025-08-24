@@ -7,7 +7,7 @@
     "light": "#ce7a0a",
     "dark": "#ce7a0a"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -18,8 +18,38 @@
             "pages": [
               "index",
               "quickstart",
-              "development",
-              "why-orica"
+              "why-orica",
+              "FAQs"
+
+            ]
+          },
+          {
+            "group": "Concepts",
+            "pages": [
+              "what-is-orica",
+              "core-idea",
+              "bet-types",
+              "fees-and-revenue",
+              "social-layer"
+            ]
+          },
+          {
+            "group": "Usage Tutorials",
+            "pages": [
+              "tutorials/create-bet-x",
+              "tutorials/create-bet-telegram",
+              "tutorials/join-sidebets",
+              "tutorials/view-leaderboard"
+            ]
+          },
+          {
+            "group": "How Orica Works",
+            "pages": [
+              "wager-lifecycle",
+              "market-states",
+              "settlement-oracles",
+              "timeouts",
+              "edge-cases"
             ]
           }
         ]
@@ -46,8 +76,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "logo.png",
+    "dark": "logo.png"
   },
   "navbar": {
     "links": [
