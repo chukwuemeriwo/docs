@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Orica Docs",
   "colors": {
     "primary": "#f7b009",
     "light": "#f7b009",
@@ -60,7 +60,7 @@
         {
           "anchor": "Website",
           "href": "https://orica.money",
-          "icon": "book-open-cover"
+          "icon": "website"
         },
         {
           "anchor": "Community",
@@ -68,9 +68,9 @@
           "icon": "X"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Telegram",
+          "href": "https://t.me/oricamoneybot",
+          "icon": "telegram"
         }
       ]
     }
