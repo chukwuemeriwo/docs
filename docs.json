@@ -20,6 +20,7 @@
               "quickstart",
               "why-orica",
               "FAQs"
+
             ]
           },
           {
@@ -59,11 +60,11 @@
         {
           "anchor": "Website",
           "href": "https://orica.money",
-          "icon": "favicon.svg"
+          "icon": "book-open-cover"
         },
         {
-          "anchor": "X (Twitter)",
-          "href": "https://x.com/oricamoney",
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
           "icon": "X"
         },
         {
@@ -88,7 +89,7 @@
     "primary": {
       "type": "button",
       "label": "Orica app",
-      "href": "https://oricamoney.com"
+      "href": "https://example.com"
     }
   },
   "contextual": {
@@ -99,7 +100,8 @@
      "claude",
      "perplexity",
      "mcp",
-     "cursor"
+     "cursor",
+     "vscode"
    ]
   },
   "footer": {
