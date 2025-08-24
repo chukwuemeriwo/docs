@@ -25,30 +25,18 @@
           {
             "group": "Concepts",
             "pages": [
-              "what-is-orica",
-              "core-idea",
-              "bet-types",
-              "fees-and-revenue",
-              "social-layer"
+              "concepts/bet-types",
+              "concepts/how-orica-works",
+              "concepts/fees"
             ]
           },
           {
             "group": "Usage Tutorials",
             "pages": [
-              "tutorials/create-bet-x",
-              "tutorials/create-bet-telegram",
-              "tutorials/join-sidebets",
-              "tutorials/view-leaderboard"
-            ]
-          },
-          {
-            "group": "How Orica Works",
-            "pages": [
-              "wager-lifecycle",
-              "market-states",
-              "settlement-oracles",
-              "timeouts",
-              "edge-cases"
+              "tutorials/x-bets",
+              "tutorials/telegram-bets",
+              "tutorials/funding-bets",
+              "tutorials/leaderboards"
             ]
           }
         ]
