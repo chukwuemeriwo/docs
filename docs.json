@@ -55,7 +55,7 @@
         {
           "anchor": "Website",
           "href": "https://orica.money",
-          "icon": "home"
+          "icon": "app"
         },
         {
           "anchor": "Community",
@@ -75,7 +75,7 @@
         {
           "anchor": "Brand Kit",
           "href": "https://example.com/brand",
-          "icon": "brand"
+          "icon": "blog"
         }
       ]
     }
