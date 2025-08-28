@@ -5,74 +5,56 @@ icon: "recycle"
 ---
 
 <AccordionGroup>
-
   <Accordion title="What is Orica?" icon="info">
-    Orica turns Twitter and Telegram debates into real-money wagers on Solana. 
-    Users can create head-to-head bets inside X or Telegram using bots. Stakes 
-    are held in instant on-chain escrow, outcomes are settled transparently, and 
+    Orica turns Twitter and Telegram debates into real-money wagers on Solana.
+    Users can create head-to-head bets inside X or Telegram using bots. Stakes
+    are held in instant on-chain escrow, outcomes are settled transparently, and
     winners climb a global leaderboard.
   </Accordion>
-
   <Accordion title="How do I start a wager?" icon="play">
-    On X: Reply to a prediction tweet with bet details and tag **@oricamoney**.  
-    On Telegram: Use the `/bet` command with **@oricabot**.  
-    The bot replies with a wager link where you deposit your stake in USDC. Once 
+    On X: Reply to a prediction tweet with bet details and tag **@oricamoney**.\
+    On Telegram: Use the `/bet` command with **@oricabot**.\
+    The bot replies with a wager link where you deposit your stake in USDC. Once
     both sides fund, the wager is live.
   </Accordion>
-
   <Accordion title="What are Sidebets?" icon="users">
-    Sidebets let spectators join wagers without being the main bettors. Funds 
-    go into a separate pool, and payouts are based on odds implied by total 
+    Sidebets let spectators join wagers without being the main bettors. Funds
+    go into a separate pool, and payouts are based on odds implied by total
     stakes on each side. This makes every debate more liquid and engaging.
   </Accordion>
-
   <Accordion title="How are winnings paid out?" icon="coins">
-    Winnings are distributed instantly on Solana once the oracle posts the 
-    result. Head-to-head winners take the pot minus the platform fee, while 
+    Winnings are distributed instantly on Solana once the oracle posts the
+    result. Head-to-head winners take the pot minus the platform fee, while
     sidebettors are paid proportionally according to odds.
   </Accordion>
-
   <Accordion title="What fees does Orica charge?" icon="percent">
-  Orica charges a protocol fee on every wager, but the exact percentage depends 
-  on which version of the docs you’re reading:
+    Orica charges a protocol fee on every wager, but the exact percentage depends
+    on which version of the docs you’re reading:
 
-  - **Head-to-head wagers**: Some specs show **1–2% of the winning pool** 
-    (all to treasury). Other whitepapers fix this at a **flat 1%**.  
-  - **Sidebets**: Always a **1% fee on winnings**, split **80% to the Orica 
-    treasury** and **20% to the primary wager winner** as a bonus.
+    - **Head-to-head wagers**: Some specs show **1–2% of the winning pool**
+      (all to treasury). Other whitepapers fix this at a **flat 1%**.
+    - **Sidebets**: Always a **1% fee on winnings**, split **80% to the Orica
+      treasury** and **20% to the primary wager winner** as a bonus.
 
-  ⚠️ Final fee model will be locked in mainnet launch docs. For now, expect 
-  ~**1% on wagers** and **1% on sidebets**.
-</Accordion>
-
-
+    ⚠️ Final fee model will be locked in mainnet launch docs. For now, expect
+    ~**1% on wagers** and **1% on sidebets**.
+  </Accordion>
   <Accordion title="What tokens can I use?" icon="wallet">
-    Orica currently uses **USDC and other SPL tokens** on Solana. Funds are 
+    Orica currently uses **USDC and other SPL tokens** on Solana. Funds are
     deposited via wallets like Phantom, Solflare, or Backpack.
   </Accordion>
-
   <Accordion title="How are outcomes decided?" icon="award">
-    Oracles fetch results from reliable sources like Chainlink, Pyth, CoinGecko, Kaito 
-    and other reputable APIs. Once verified, smart contracts release funds automatically.
+    Oracles fetch results from reliable sources like Chainlink, Pyth, CoinGecko, Kaito, and other reputable APIs. Once verified, smart contracts automatically release funds.
   </Accordion>
-
   <Accordion title="What happens if no one matches my bet?" icon="clock">
-    If no counterparty matches your stake within the match window, your funds 
-    are refunded automatically (minus a tiny gas fee). Optionally, the system 
+    If no counterparty matches your stake within the match window, your funds
+    are refunded automatically (minus a tiny gas fee). Optionally, the system
     can open a **B-side pool** where multiple contributors fill the other side.
   </Accordion>
-
   <Accordion title="Is Orica trustless?" icon="shield-check">
-    Yes. All wagers, escrow, and settlements are handled fully on-chain by smart 
-    contracts on Solana. No admins can override results. Every action is public 
-    and immutable.
+    Yes. All wagers, escrow, and settlements are handled fully on-chain by smart contracts on Solana. No admin can override results. Every action is public and immutable.
   </Accordion>
-
   <Accordion title="Why would I use Orica instead of a prediction market?" icon="trophy">
-    Orica is **native inside social platforms**. You don’t need an extra app. Bets 
-    happen where the debates already are. With odds-driven Sidebets, public 
-    leaderboards, and instant settlement, Orica makes debates measurable, social, 
-    and profitable.
+    Orica is **native to social platforms**. You don’t need an extra app. Bets happen where the debates already are. With odds-driven side bets, public leaderboards, and instant settlement, Orica makes debates measurable, social, and profitable.
   </Accordion>
-
 </AccordionGroup>
