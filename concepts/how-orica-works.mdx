@@ -4,58 +4,62 @@ description: "Learn how Orica Works Behind the Scenes"
 icon: "drama"
 ---
 
+Orica turns social debates on **X (Twitter)** and **Telegram** into live wagers with instant on-chain escrow, transparent resolution, and a public leaderboard. Every wager follows a simple flow.
 
-Orica turns social debates on **X (Twitter)** and **Telegram** into live wagers with instant on-chain escrow, transparent resolution, and a public leaderboard. Every wager follows a simple flow.  
+<Steps>
+  <Step title="Create a Wager">
+    Start on **X** by tagging [@oricamoney](https://twitter.com/oricamoney) in a reply to a prediction tweet, or on **Telegram** using the `/bet` command with [@oricabot](https://t.me/oricabot).
 
-<Steps>  
-  <Step title="Step 1: Create a Wager">  
-    Start on **X** by tagging [@oricamoney](https://twitter.com/oricamoney) in a reply to a prediction tweet, or on **Telegram** using the `/bet` command with [@oricabot](https://t.me/oricabot).  
+    You’ll define:
 
-    You’ll define:  
-    - Asset or event (e.g., “SOL > $200 by tomorrow”)  
-    - Stake size (from $5 up to your KYC tier limit)  
-    - Expiry time  
-    - Your side (YES / NO)  
+    - Asset or event (e.g., “SOL \> \$200 by tomorrow”)
+    - Stake size (from \$5 up to your KYC tier limit)
+    - Expiry time
+    - Your side (YES / NO)
 
-    The bot instantly generates a wager link with escrow instructions.  
-  </Step>  
+    The bot instantly generates a wager link with escrow instructions.
+  </Step>
+  <Step title="Match the Wager">
+    A counterparty has a set window (e.g., 6–24 hours) to match your stake.
 
-  <Step title="Step 2: Match the Wager">  
-    A counterparty has a set window (e.g., 6–24 hours) to match your stake.  
+    - If matched, both sides deposit into escrow, and the wager becomes **LOCKED**.
+    - If unmatched, your funds are refunded automatically, minus a minimal gas fee.
 
-    - If matched, both sides deposit into escrow and the wager becomes **LOCKED**.  
-    - If unmatched, your funds are refunded automatically, minus a minimal gas fee.  
+    <Warning>
+      If no single counterparty appears, Orica can open a pooled match. Multiple users can collectively fill the opposing side, with stakes scaled and refunds issued instantly.
+    </Warning>
+  </Step>
+  <Step title="Sidebets for Spectators">
+    Once a wager is live, a separate **Sidebets pool** opens until the cutoff.
 
-    <Warning>If no single counterparty appears, Orica can open a pooled match. Multiple users can collectively fill the opposing side, with stakes scaled and refunds issued instantly.</Warning>  
-  </Step>  
+    - Anyone can back either side.
+    - Payouts are odds-based, calculated from the ratio of total stakes on each side.
+    - Winners receive proportional payouts according to their risk.
 
-  <Step title="Step 3: Sidebets for Spectators">  
-    Once a wager is live, a separate **Sidebets pool** opens until the cutoff.  
+    <Tip>
+      Sidebets are independent of the main wager and carry their own 1% fee, with 20% flowing back to the primary winner as a bonus incentive.
+    </Tip>
+  </Step>
+  <Step title="Escrow & Settlement">
+    All funds are locked on-chain in USDC or other SPL tokens until expiry.
 
-    - Anyone can back either side.  
-    - Payouts are odds-based, calculated from the ratio of total stakes on each side.  
-    - Winners receive proportional payouts according to their risk.  
+    - Oracles (Chainlink, Pyth, market APIs, or custom feeds) fetch the outcome.
+    - The contract automatically releases winnings to the correct side.
+    - If the event is invalid or unresolved, funds are refunded.
 
-    <Tip>Sidebets are independent of the main wager and carry their own 1% fee, with 20% flowing back to the primary winner as a bonus incentive.</Tip>  
-  </Step>  
+    <Check>
+      On Solana: Settlement is instant, transparent, and final.
+    </Check>
+  </Step>
+  <Step title="Payouts & Leaderboards">
+    Winners receive their share minus fees (1–2% on the winning pool).
 
-  <Step title="Step 4: Escrow & Settlement">  
-    All funds are locked on-chain in USDC or other SPL tokens until expiry.  
+    - **Primary wager winners** take the pot.
+    - **Sidebettors** split their pool proportionally.
+    - Results are posted to the **Live Wagers feed** and update the global leaderboard.
 
-    - Oracles (Chainlink, Pyth, market APIs, or custom feeds) fetch the outcome.  
-    - The contract automatically releases winnings to the correct side.  
-    - If the event is invalid or unresolved, funds are refunded.  
-
-    <Check>On Solana: Settlement is instant, transparent, and final.</Check>  
-  </Step>  
-
-  <Step title="Step 5: Payouts & Leaderboards">  
-    Winners receive their share minus fees (1–2% on the winning pool).  
-
-    - **Primary wager winners** take the pot.  
-    - **Sidebettors** split their pool proportionally.  
-    - Results are posted to the **Live Wagers feed** and update the global leaderboard.  
-
-    <Info>Every win boosts your public score, so wagers aren’t just about money—they build social status.</Info>  
-  </Step>  
+    <Info>
+      Every win boosts your public score, so wagers aren’t just about money; they build social status.
+    </Info>
+  </Step>
 </Steps>
