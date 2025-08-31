@@ -93,7 +93,7 @@
     "dark": "logo.png"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "grid"
   },
   "navbar": {
     "links": [
