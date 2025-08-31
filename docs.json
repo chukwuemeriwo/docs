@@ -92,6 +92,9 @@
     "light": "logo.png",
     "dark": "logo.png"
   },
+  "background": {
+    "decoration": "windows"
+  },
   "navbar": {
     "links": [
       {
