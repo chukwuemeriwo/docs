@@ -22,16 +22,25 @@
         "tab": "General",
         "groups": [
           {
-            "group": "Orica 101",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
               "why-orica",
-              "faqs",
-              "concepts/what-is-orica",
-              "concepts/mission",
+              "faqs"
+            ]
+          },
+          {
+            "group": "Concepts",
+            "pages": [
               "concepts/prediction-markets",
-              "concepts/how-orica-makes-money"
+              "concepts/how-orica-makes-money",
+              "concepts/markets-101",
+              "concepts/bet-types",
+              "concepts/how-orica-works",
+              "concepts/navigating-markets",
+              "concepts/portfolio",
+              "concepts/fees"
             ]
           },
           {
@@ -39,10 +48,7 @@
             "pages": [
               "account/signing-up",
               "account/logging-in",
-              "account/editing-profile",
-              "account/deactivating",
-              "account/demo-mode",
-              "account/risk-management"
+              "account/editing-profile"
             ]
           },
           {
@@ -50,55 +56,35 @@
             "pages": [
               "funds/depositing",
               "funds/withdrawing",
-              "funds/transfers-faq",
               "funds/linking-wallets"
             ]
           },
           {
-            "group": "Trading",
+            "group": "Tutorials",
             "pages": [
               "tutorials/x-bets",
               "tutorials/telegram-bets",
               "tutorials/funding-bets",
               "tutorials/joining-bets",
-              "tutorials/leaderboard",
+              "tutorials/leaderboard"
+            ]
+          },
+          {
+            "group": "Trading",
+            "pages": [
               "trading/order-types",
               "trading/buying-yes-selling-no",
-              "trading/advanced-options",
-              "trading/trading-hours",
-              "trading/counterparties"
-            ]
+              "trading/advanced-options"            ]
           },
           {
-            "group": "Markets",
-            "pages": [
-              "concepts/markets-101",
-              "concepts/bet-types",
-              "concepts/how-orica-works",
-              "concepts/popular-markets",
-              "concepts/navigating-markets",
-              "concepts/portfolio"
-            ]
-          },
-          {
-            "group": "Fees",
-            "pages": [
-              "concepts/fees"
-            ]
-          },
-          {
-            "group": "Community & Growth",
+            "group": "Community",
             "pages": [
               "community/leaderboard",
-              "community/affiliate-program",
-              "community/market-maker-program"
-            ]
+              "community/affiliate-program"            ]
           },
           {
-            "group": "Advanced",
+            "group": "Builders",
             "pages": [
-              "advanced/documents-taxes",
-              "advanced/trading-history",
               "advanced/api",
               "advanced/bug-bounty"
             ]
@@ -122,23 +108,23 @@
         },
         {
           "anchor": "X (Twitter)",
-          "href": "https://mintlify.com/community",
-          "icon": "X"
+          "href": "https://x.com/oricamoney",
+          "icon": "twitter"
         },
          {
           "anchor": "Discord",
-          "href": "https://discord.com/orica",
-          "icon": "discord"
+          "href": "https://discord.gg/oricamoney",
+          "icon": "message-circle"
         },
         {
           "anchor": "Telegram",
           "href": "https://t.me/oricamoneybot",
-          "icon": "telegram"
+          "icon": "send"
         },
         {
           "anchor": "Brand Kit",
-          "href": "https://example.com/brand",
-          "icon": "list-video"
+          "href": "https://orica.money/brand",
+          "icon": "palette"
         }
       ]
     }
@@ -154,13 +140,13 @@
     "links": [
       {
         "label": "X (Twitter)",
-        "href": "https://discord.gg/oricamoney"
+        "href": "https://x.com/oricamoney"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Visit Orica",
-      "href": "https://example.com"
+      "href": "https://orica.money"
     }
   },
   "contextual": {
