@@ -22,30 +22,85 @@
         "tab": "General",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Orica 101",
             "pages": [
               "index",
               "quickstart",
               "why-orica",
-              "faqs"
+              "faqs",
+              "concepts/what-is-orica",
+              "concepts/mission",
+              "concepts/prediction-markets",
+              "concepts/how-orica-makes-money"
             ]
           },
           {
-            "group": "Concepts",
+            "group": "Account",
             "pages": [
-              "concepts/how-orica-works",
-              "concepts/bet-types",
-              "concepts/fees"
+              "account/signing-up",
+              "account/logging-in",
+              "account/editing-profile",
+              "account/deactivating",
+              "account/demo-mode",
+              "account/risk-management"
             ]
           },
           {
-            "group": "Usage Tutorials",
+            "group": "Funds",
+            "pages": [
+              "funds/depositing",
+              "funds/withdrawing",
+              "funds/transfers-faq",
+              "funds/linking-wallets"
+            ]
+          },
+          {
+            "group": "Trading",
             "pages": [
               "tutorials/x-bets",
               "tutorials/telegram-bets",
               "tutorials/funding-bets",
               "tutorials/joining-bets",
-              "tutorials/leaderboard"
+              "tutorials/leaderboard",
+              "trading/order-types",
+              "trading/buying-yes-selling-no",
+              "trading/advanced-options",
+              "trading/trading-hours",
+              "trading/counterparties"
+            ]
+          },
+          {
+            "group": "Markets",
+            "pages": [
+              "concepts/markets-101",
+              "concepts/bet-types",
+              "concepts/how-orica-works",
+              "concepts/popular-markets",
+              "concepts/navigating-markets",
+              "concepts/portfolio"
+            ]
+          },
+          {
+            "group": "Fees",
+            "pages": [
+              "concepts/fees"
+            ]
+          },
+          {
+            "group": "Community & Growth",
+            "pages": [
+              "community/leaderboard",
+              "community/affiliate-program",
+              "community/market-maker-program"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/documents-taxes",
+              "advanced/trading-history",
+              "advanced/api",
+              "advanced/bug-bounty"
             ]
           },
           {
