@@ -32,6 +32,7 @@
             "group": "Concepts",
             "pages": [
               "concepts/prediction-markets",
+              "concepts/how-orica-makes-money",
               "concepts/markets-101",
               "concepts/bet-types",
               "concepts/how-orica-works",
@@ -45,15 +46,10 @@
             "pages": [
               "account/signing-up",
               "account/logging-in",
-              "account/editing-profile"
-            ]
-          },
-          {
-            "group": "Funds",
-            "pages": [
-              "funds/depositing",
-              "funds/withdrawing",
-              "funds/linking-wallets"
+              "account/editing-profile",
+              "account/depositing",
+              "account/withdrawing",
+              "account/linking-wallets"
             ]
           },
           {
@@ -79,13 +75,6 @@
             "pages": [
               "community/leaderboard",
               "community/affiliate-program"
-            ]
-          },
-          {
-            "group": "Builders",
-            "pages": [
-              "advanced/api",
-              "advanced/bug-bounty"
             ]
           },
           {
