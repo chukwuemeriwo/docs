@@ -3,3 +3,63 @@ title: "Bet Types"
 description: "Primary wagers and secondary betting options."
 icon: "layers"
 ---
+
+Orica supports three main bet types: **Primary Bets**, **Secondary Bets (Sidebets)**, and the **Counterparty Pool**. Each type serves a different purpose, but all share the same escrow, oracle, and settlement system.
+
+## TDLR:
+
+- **Primary Bets**: Simple head-to-head wagers.
+- **Secondary Bets**: Spectator pools with odds-driven payouts.
+- **Counterparty Pool**: Crowdfunded opposition for large wagers.
+
+All three bet types make Orica flexible, fair, and engaging whether you want to go one-on-one or join in with the crowd.
+
+## Primary Bets
+
+Primary Bets are head-to-head wagers between two users.
+
+- Both players deposit equal stakes into escrow.
+- Stakes must be matched within the set match window (e.g., 6–24 hours).
+- At settlement, the winner takes the combined pot minus a **1–2% fee** that goes to the Orica Treasury.
+
+<Note>
+  If no one matches within the deadline, the initiator’s funds are refunded automatically, minus only a minimal network fee.
+</Note>
+
+---
+
+## Secondary Bets (Sidebets)
+
+Sidebets allow spectators to participate without being one of the main counterparties.
+
+- Anyone can back either side of a live wager until the cutoff time.
+- All Sidebets go into a dedicated pool separate from the main wager.
+- Odds are dynamic, calculated from the ratio of total funds on each side.
+- Winnings are distributed proportionally to stake size and odds.
+- A **1% fee** applies to Sidebet winnings.
+
+**Fee Allocation:**
+
+- 80% → Orica Treasury
+- 20% → Bonus for the Primary Winner
+
+<Tip>
+  This bonus incentivizes users to initiate wagers that attract spectators.
+</Tip>
+
+---
+
+## The Counterparty Pool
+
+When a large bet is placed and no single opponent can match it, Orica opens a Counterparty Pool.
+
+- Multiple users can contribute smaller amounts on the opposing side.
+- If the pool fully matches, the wager locks as normal.
+- If partially filled, the initiator’s stake is scaled down to match and the unused amount is refunded instantly.
+- Payouts are split proportionally among contributors.
+
+<Info>
+  Counterparty Pools ensure that even very large wagers find a match while keeping payouts fair for all participants.
+</Info>
+
+---
