@@ -4,29 +4,29 @@ description: "Wager creation, matching, and settlement basics."
 icon: "book-open"
 ---
 
-
 Markets on Orica are built around wagers. Every wager follows a simple lifecycle: **create, match, settle**. By understanding these three steps, you’ll know how every market works under the hood.
 
 ## Wager lifecycle
 
 <Steps>
   <Step title="Create a Wager">
-    A user defines the terms of a wager: event, condition, expiry time, stake amount, and stance (YES or NO).  
-    - Example: “SOL > $200 by tomorrow, $500 stake.”  
-    - Funds are deposited into an on-chain escrow using USDC or other Solana tokens.  
+    A user defines the terms of a wager, including the event, condition, expiry time, stake amount, and stance (YES or NO).
+
+    - Example: “SOL \> 200 by tomorrow, 500 stake.”
+    - Funds are deposited into an on-chain escrow using USDC or other Solana tokens.
     - The wager now waits for an opponent.
   </Step>
-
   <Step title="Match with a Counterparty">
-    Another user joins by taking the opposite side and depositing an equal stake within the match window.  
-    - If matched, the pot is locked and the wager goes live.  
+    Another user joins by taking the opposite side and depositing an equal stake within the match window.
+
+    - If matched, the pot is locked and the wager goes live.
     - If no one matches in time, the creator’s funds are refunded (minus a minimal gas fee).
   </Step>
-
   <Step title="Settlement & Payout">
-    When the expiry hits, an oracle checks the outcome.  
-    - If the creator’s side wins, they receive the pot minus protocol fees.  
-    - If the opponent wins, they receive the payout instead.  
+    When the expiry hits, an oracle checks the outcome.
+
+    - If the creator’s side wins, they receive the pot minus protocol fees.
+    - If the opponent wins, they receive the payout instead.
     - All payouts are instant and final, recorded transparently on Solana.
   </Step>
 </Steps>
@@ -35,13 +35,12 @@ Markets on Orica are built around wagers. Every wager follows a simple lifecycle
 
 Alongside every main wager, spectators can join through **Sidebets**. They back either side with any amount, and payouts are proportional to odds based on total stakes. Sidebets keep the action open to everyone, not just the two primary bettors.
 
-
 ## Why this Matters
 
-This structure makes Orica markets:  
+This structure makes Orica markets:
 
-- **Trustless**: funds are locked in escrow until resolution.  
-- **Fair**: oracles settle results automatically, no middlemen.  
-- **Open**: spectators amplify liquidity and engagement.  
+- **Trustless**: funds are locked in escrow until resolution.
+- **Fair**: oracles settle results automatically, no middlemen.
+- **Open**: spectators amplify liquidity and engagement.
 
 With just three steps: create, match, settle, anyone can turn a debate into a fully transparent, on-chain market.
