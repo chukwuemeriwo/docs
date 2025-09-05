@@ -46,9 +46,7 @@
               "account/editing-profile",
               "account/depositing",
               "account/withdrawing",
-              "account/linking-wallets",
-              "account/navigating-markets",
-              "account/portfolio"
+              "account/linking-wallets"
             ]
           },
           {
@@ -57,7 +55,9 @@
               "tutorials/x-bets",
               "tutorials/telegram-bets",
               "tutorials/funding-bets",
-              "tutorials/joining-bets"
+              "tutorials/joining-bets",
+              "tutorials/navigating-markets",
+              "tutorials/portfolio"
             ]
           },
           {
