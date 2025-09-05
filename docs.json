@@ -35,8 +35,6 @@
               "concepts/markets-101",
               "concepts/bet-types",
               "concepts/how-orica-works",
-              "concepts/navigating-markets",
-              "concepts/portfolio",
               "concepts/fees"
             ]
           },
@@ -48,7 +46,9 @@
               "account/editing-profile",
               "account/depositing",
               "account/withdrawing",
-              "account/linking-wallets"
+              "account/linking-wallets",
+              "account/navigating-markets",
+              "account/portfolio",
             ]
           },
           {
